@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
 html, body{
     margin: 0;
     height: 100%;
@@ -8,7 +10,6 @@ body {
     background: linear-gradient(106deg, rgba(255,149,120,1) 20%, rgba(254,170,252,1) 50%, rgba(160,217,250,1) 100%);
     font-family: 'Manrope', sans-serif;
     display: flex;
-    flex-direction: column;
     overflow: hidden;
     justify-content: center;
     align-items: center;
@@ -16,18 +17,6 @@ body {
 
 h3 {
     font-weight: normal;
-}
-
-.header {
-    margin: auto;
-    width: 40%;
-    text-align: center;
-    color: #fff;
-}
-
-.header h1 {
-    font-size: 5em;
-    margin-bottom: 0;
 }
 
 .sidebar {
@@ -78,60 +67,21 @@ h3 {
 }
 
 .mainBody {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    color: #fff;
     margin: auto; 
     padding: 2em;
-    width: 80%;
-    height: 80%;
+    width: 50em;
     text-align: center;
     background: #76ceff;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .mainBody h1 {
-    margin-bottom: 0;
-    font-size: 4em;
+    margin-bottom: 2%;
+    font-size: 5em;
 }
 
 .mainBody p {
     margin-top: 0;
-    font-size: 1.2em;
-}
-
-.description {
-    order: 1;
-    padding: 2em;
-    margin: 2em;
-    background: #fff;
-    flex: 1 0 50%;
-    width: 50em;
-    height: 50%;
-}
-
-.sidePic {
-    order: 2;
-    flex-grow: 1;
-    background: #fff;
-    width: 20em;
-    height: 53%;
-    margin: 1em;
-    padding: 15px;
-}
-
-.references {
-    order: 3;
-    margin: 2em;
-    flex-basis: 100%;
-    flex: 1 0 100%;
-    width: 100%;
-    padding: 1.5em;
-    background: #fff ;
-}
-
-.footer {
-
+    font-size: 1.4em;
 }
