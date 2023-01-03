@@ -136,6 +136,7 @@ h3 {
 
 .side img {
     width: 100%;
+    border: 1px black solid;
 }
 
 .references {
